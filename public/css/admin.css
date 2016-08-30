@@ -1,0 +1,82 @@
+/*css del diseño*/
+
+
+#page-wrapper{
+    max-height: 100%;
+    min-height: 600pt;
+}
+.skin-1 .navbar-default .nav > li > a:hover,
+.skin-1 .navbar-default .nav > li > a:focus {
+    background: #3d8abd;
+    color: #fff;
+}
+.nav > li.active > ul,
+.nav > li.active > a{
+    background: #1483C6;
+    border-color: #1483C6;
+}
+/*.nav > li {*/
+    /*background: #307CA9;*/
+    /*border-color: #307CA9;*/
+/*}*/
+
+/*.navbar-default .nav > li > a:focus {*/
+    /*background: #2885BD;*/
+    /*color: #fff;*/
+/*}*/
+body{
+    background: #1483C6;
+}
+.skin-1 .nav > li > a {
+    color: #cfcfcf;
+}
+
+.skin-1 #page-wrapper{
+    background: url("patterns/body_pointer_bg.png") repeat scroll 0% 0% transparent;
+}
+
+.skin-1 .ibox-title {
+    border-width: 4px 0 0;
+    border-color: #3d8abd;
+}
+
+.ibox-content {
+    border-top-color: #3d8abd;
+}
+
+.ibox-title h5 {
+    color: #1d71b8;
+}
+
+.float-e-margins .btn{
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: -7px;
+}
+
+.form-control:focus, .single-line:focus {
+    border-color: #62bdff;
+}
+
+/*fin de ccs de  diseño*/
+
+.dataTable .table-checkbox {
+    width: 8px !important;
+}
+
+span.required {
+    color: #e02222;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+label.error, span.error{
+    /*box-shadow: red 1px 1px;*/
+    color: #ff333d;
+}
+
+input.error, select.error, textarea.error, ul.error, .select2-container.error, div.error{
+    border: 2px solid #ff333d;
+}
+
+textarea.form-control {    height: 120px;}
